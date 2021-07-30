@@ -1,26 +1,23 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
-* Name:  Auth Lang - English
+* Name:  Auth Lang - Español
 *
-* Author: Ben Edmunds
-* 		  ben.edmunds@gmail.com
-*         @benedmunds
+* Author: EnigmaTeam
+* 		  webmaster@enigmateam.org
+*         @enigmahernandez
 *
-* Author: Daniel Davis
-*         @ourmaninjapan
+* Location: http://github.com/benedmunds/enigmaelectronica/
 *
-* Location: http://github.com/benedmunds/ion_auth/
+* Created:  30.07.2021
 *
-* Created:  03.09.2013
-*
-* Description:  English language file for Ion Auth example views
+* Description:  Archivo de idioma inglés para vistas de ejemplo de Auth Lang
 *
 */
 
-// Errors
+// Errores
 $lang['error_csrf'] = 'This form post did not pass our security checks.';
 
-// Login
+// Acceso
 $lang['login_heading']         = 'Acceso';
 $lang['login_subheading']      = 'Regístrese para iniciar su sesión';
 $lang['login_identity_label']  = 'Email/Usuario';
@@ -29,7 +26,7 @@ $lang['login_remember_label']  = 'Recordarme';
 $lang['login_submit_btn']      = 'Acceder';
 $lang['login_forgot_password'] = '¿Olvide mi contraseña?';
 
-// Index
+// Indice
 $lang['index_heading']           = 'Usuarios';
 $lang['index_subheading']        = 'A continuación se muestra una lista de los usuarios.';
 $lang['index_fname_th']          = 'Nombre';
@@ -43,7 +40,7 @@ $lang['index_inactive_link']     = 'Inactivo';
 $lang['index_create_user_link']  = 'Crear nuevo usuario';
 $lang['index_create_group_link'] = 'Crear nuevo grupo';
 
-// Deactivate User
+// Desactivar Usuario
 $lang['deactivate_heading']                  = 'Deactivar Usuario';
 $lang['deactivate_subheading']               = '¿Estás seguro de que quieres desactivar al usuario? \'%s\'';
 $lang['deactivate_confirm_y_label']          = 'Si:';
@@ -52,7 +49,7 @@ $lang['deactivate_submit_btn']               = 'Enviar';
 $lang['deactivate_validation_confirm_label'] = 'confirmación';
 $lang['deactivate_validation_user_id_label'] = 'ID Usuario';
 
-// Create User
+// Crear Usuario
 $lang['create_user_heading']                           = 'Crear Usuario';
 $lang['create_user_subheading']                        = 'Ingrese la información del usuario a continuación.';
 $lang['create_user_fname_label']                       = 'Nombres:';
@@ -73,7 +70,7 @@ $lang['create_user_validation_company_label']          = 'Nombre de la Compañia
 $lang['create_user_validation_password_label']         = 'Contraseña';
 $lang['create_user_validation_password_confirm_label'] = 'Confirme la Contraseña';
 
-// Edit User
+// Editar Usuario
 $lang['edit_user_heading']                           = 'Editar Usuario';
 $lang['edit_user_subheading']                        = 'Ingrese la información del usuario a continuación.';
 $lang['edit_user_fname_label']                       = 'Nombres:';
@@ -94,7 +91,7 @@ $lang['edit_user_validation_groups_label']           = 'Grupos';
 $lang['edit_user_validation_password_label']         = 'Contraseña';
 $lang['edit_user_validation_password_confirm_label'] = 'Confirmación de Contraseña';
 
-// Create Group
+// Crear Grupo
 $lang['create_group_title']                  = 'Crear Grupo';
 $lang['create_group_heading']                = 'Crear Grupo';
 $lang['create_group_subheading']             = 'Ingrese la información del grupo a continuación.';
@@ -104,7 +101,7 @@ $lang['create_group_submit_btn']             = 'Crear Grupo';
 $lang['create_group_validation_name_label']  = 'Nombre del Grupo';
 $lang['create_group_validation_desc_label']  = 'Descripción';
 
-// Edit Group
+// Editar Grupos
 $lang['edit_group_title']                  = 'Editar Grupo';
 $lang['edit_group_saved']                  = 'Grupo guardado';
 $lang['edit_group_heading']                = 'Edita Grupo';
@@ -115,7 +112,7 @@ $lang['edit_group_submit_btn']             = 'Guardar Grupo';
 $lang['edit_group_validation_name_label']  = 'Nombre de Grupo';
 $lang['edit_group_validation_desc_label']  = 'Descripción';
 
-// Change Password
+// Cambiar Contraseña
 $lang['change_password_heading']                               = 'Cambiar contraseña';
 $lang['change_password_old_password_label']                    = 'Contraseña anterior:';
 $lang['change_password_new_password_label']                    = 'Contraseña nueva (al menos %s caracteres de largo):';
@@ -125,7 +122,7 @@ $lang['change_password_validation_old_password_label']         = 'Contraseña An
 $lang['change_password_validation_new_password_label']         = 'Contraseña nueva';
 $lang['change_password_validation_new_password_confirm_label'] = 'Confirmar nueva Contraseña';
 
-// Forgot Password
+// Contraseña Olvidada
 $lang['forgot_password_heading']                 = 'Olvide la Contraseña';
 $lang['forgot_password_subheading']              = 'Por favor intrese su %s para que podamos enviarle un correo y restablecer su contraseña.';
 $lang['forgot_password_email_label']             = '%s:';
@@ -135,7 +132,7 @@ $lang['forgot_password_identity_label'] 		 = 'Identificación';
 $lang['forgot_password_email_identity_label']    = 'Correo Electrónico';
 $lang['forgot_password_email_not_found']         = 'No hay registros de esa dirección de Correo Electrónico.';
 
-// Reset Password
+// Restablecer contraseña
 $lang['reset_password_heading']                               = 'Cambiar contraseña';
 $lang['reset_password_new_password_label']                    = 'Contraseña nueva(al menos %s caracteres de largo):';
 $lang['reset_password_new_password_confirm_label']            = 'Confirmar Nueva contraseña:';
